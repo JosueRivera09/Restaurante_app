@@ -1,2 +1,2 @@
 # Restaurante_app
-Este es un proyecto universitario (examen final de semestre).
+Este proyecto fue desarrollado como parte del examen final del semestre universitario. Es una aplicación de escritorio creada en C# que simula el funcionamiento básico de un restaurante, incluyendo menús,

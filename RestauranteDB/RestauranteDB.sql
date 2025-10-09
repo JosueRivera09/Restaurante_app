@@ -4,12 +4,6 @@ CREATE DATABASE RestauranteDB
 GO
 
 
-USE master
-GO
-
-CREATE DATABASE RestauranteDB
-GO
-
 USE RestauranteDB
 GO
 
@@ -19,9 +13,24 @@ CREATE TABLE Usuarios (
     IdUsuario INT PRIMARY KEY CHECK (IdUsuario BETWEEN 1000 AND 9999),
     NombreUsuario NVARCHAR(50) UNIQUE NOT NULL,
     Contraseña NVARCHAR(255) NOT NULL,
-    Rol NVARCHAR(20) NOT NULL
+    Rol NVARCHAR(20) NOT NULL CHECK (Rol IN ('Administrador', 'Mesero', 'Cocinero', 'Cajero'))
 );
 GO
+
+-- inserto usuarios Admin
+INSERT INTO Usuarios (IdUsuario, NombreUsuario, Contraseña, Rol)
+VALUES 
+(1001, 'Maria Gonzalez', 'Maria123', 'Administrador'),
+(1002, 'Carlos Mendez', 'Carlos123', 'Mesero'),
+(1003, 'Ana Rodriguez', 'Ana123', 'Cocinero'),
+(1004, 'Jose Ramirez', 'Jose123', 'Mesero'),
+(1005, 'Laura Martinez', 'Laura123', 'Cajero');
+GO
+
+SELECT * FROM Usuarios
+
+
+
 
 /*
 CREATE TABLE Productos (

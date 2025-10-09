@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient; //sql conexion
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Linq;
 using System.Text;
@@ -34,6 +35,8 @@ namespace Restaurante_app
             textBoxPassword.BackColor = Color.FromArgb(31, 29, 43);
             btnAceptarLogin.BackColor = Color.FromArgb(31, 29, 43);
             btnCancelarLogin.BackColor = Color.FromArgb(31, 29, 43);
+            CurvaturaBoton(btnAceptarLogin, 20);
+            CurvaturaBoton(btnCancelarLogin, 20);
         }
 
         private void textBoxName_TextChanged(object sender, EventArgs e)
@@ -64,6 +67,7 @@ namespace Restaurante_app
 
         private void btnAceptarLogin_Click(object sender, EventArgs e)
         {
+         
             if (textBoxName.Text != "Usuario" && textBoxPassword.Text != "Contraseña")
             {
                 conexion.Open();
@@ -132,6 +136,31 @@ namespace Restaurante_app
                 textBoxPassword.ForeColor = Color.DimGray;
                 textBoxPassword.UseSystemPasswordChar = false;
             }
+        }
+
+        private void iconButtonEye_Click(object sender, EventArgs e)
+        {
+            if (textBoxPassword.UseSystemPasswordChar)
+            {
+                iconButtonEye.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+                textBoxPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                iconButtonEye.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                textBoxPassword.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void CurvaturaBoton(Button btn, int radio)
+        {
+            var path = new GraphicsPath();
+            path.AddArc(0, 0, radio, radio, 180, 90);
+            path.AddArc(btn.Width - radio, 0, radio, radio, 270, 90);
+            path.AddArc(btn.Width - radio, btn.Height - radio, radio, radio, 0, 90);
+            path.AddArc(0, btn.Height - radio, radio, radio, 90, 90);
+            path.CloseAllFigures();
+            btn.Region = new Region(path);
         }
     }
 }

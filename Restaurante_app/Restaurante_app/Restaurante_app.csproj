@@ -71,6 +71,12 @@
     <Compile Include="gestionForm.Designer.cs">
       <DependentUpon>gestionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuCard\MenuCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuCard\MenuCard.Designer.cs">
+      <DependentUpon>MenuCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="menuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="gestionForm.resx">
       <DependentUpon>gestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCard\MenuCard.resx">
+      <DependentUpon>MenuCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menuForm.resx">
       <DependentUpon>menuForm.cs</DependentUpon>

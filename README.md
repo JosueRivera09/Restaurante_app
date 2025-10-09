@@ -18,7 +18,6 @@ Este proyecto es una aplicación de escritorio en Windows Forms (WinForms) dise�
 ## 🚀 Próximos pasos
 
 - Agregar propiedades públicas a las tarjetas (`Título`, `Descripción`, `Imagen`) para que puedan recibir datos dinámicos.
-- Implementar sistema de autenticación funcional en `LoginPage`.
 - Mostrar tarjetas en `MenuForm` según datos simulados o reales.
 - Documentar el flujo de navegación y estructura de carpetas.
 

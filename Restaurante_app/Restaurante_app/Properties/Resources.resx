@@ -118,7 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="postre_budin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_budin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postre_paheya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_paheya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postre_helado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_helado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postre_pastelChocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_pastelChocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postre_pastelFresas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_pastelFresas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="postre_croasan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postre_croasan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="restaurante-rotulacion-composicion-caligrafica-diseno-vintage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restaurante-rotulacion-composicion-caligrafica-diseno-vintage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_brahma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_brahma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_cervesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_cervesa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_cocaCola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_cocaCola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_coctel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_coctel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_corona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_corona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_fanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_heineken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_heineken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_limonada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_limonada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_redbull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_redbull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebida_sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebida_sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

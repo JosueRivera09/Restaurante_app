@@ -60,9 +60,9 @@
             this.panelPrincipal.Controls.Add(this.panelLogo);
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(227, 649);
+            this.panelPrincipal.Size = new System.Drawing.Size(248, 689);
             this.panelPrincipal.TabIndex = 0;
             this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
             // 
@@ -79,12 +79,12 @@
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 35;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(0, 575);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Location = new System.Drawing.Point(0, 615);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btnSalir.Rotation = 180D;
-            this.btnSalir.Size = new System.Drawing.Size(227, 74);
+            this.btnSalir.Size = new System.Drawing.Size(248, 74);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -105,10 +105,10 @@
             this.btnReporte.IconSize = 35;
             this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReporte.Location = new System.Drawing.Point(0, 378);
-            this.btnReporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReporte.Margin = new System.Windows.Forms.Padding(4);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnReporte.Size = new System.Drawing.Size(227, 74);
+            this.btnReporte.Size = new System.Drawing.Size(248, 74);
             this.btnReporte.TabIndex = 4;
             this.btnReporte.Text = "Reportes Venta";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -129,10 +129,10 @@
             this.btnRegistro.IconSize = 35;
             this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistro.Location = new System.Drawing.Point(0, 304);
-            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnRegistro.Size = new System.Drawing.Size(227, 74);
+            this.btnRegistro.Size = new System.Drawing.Size(248, 74);
             this.btnRegistro.TabIndex = 3;
             this.btnRegistro.Text = "Registro Ventas";
             this.btnRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,10 +153,10 @@
             this.btnGestion.IconSize = 35;
             this.btnGestion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGestion.Location = new System.Drawing.Point(0, 230);
-            this.btnGestion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGestion.Margin = new System.Windows.Forms.Padding(4);
             this.btnGestion.Name = "btnGestion";
             this.btnGestion.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnGestion.Size = new System.Drawing.Size(227, 74);
+            this.btnGestion.Size = new System.Drawing.Size(248, 74);
             this.btnGestion.TabIndex = 2;
             this.btnGestion.Text = "Gestión";
             this.btnGestion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -177,10 +177,10 @@
             this.btnMenu.IconSize = 35;
             this.btnMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenu.Location = new System.Drawing.Point(0, 156);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnMenu.Size = new System.Drawing.Size(227, 74);
+            this.btnMenu.Size = new System.Drawing.Size(248, 74);
             this.btnMenu.TabIndex = 1;
             this.btnMenu.Text = "Menú ";
             this.btnMenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -193,9 +193,9 @@
             this.panelLogo.Controls.Add(this.ImageLogo);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(227, 156);
+            this.panelLogo.Size = new System.Drawing.Size(248, 156);
             this.panelLogo.TabIndex = 0;
             // 
             // ImageLogo
@@ -203,9 +203,9 @@
             this.ImageLogo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ImageLogo.Image = global::Restaurante_app.Properties.Resources.restaurante_rotulacion_composicion_caligrafica_diseno_vintage;
             this.ImageLogo.Location = new System.Drawing.Point(0, 0);
-            this.ImageLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ImageLogo.Margin = new System.Windows.Forms.Padding(4);
             this.ImageLogo.Name = "ImageLogo";
-            this.ImageLogo.Size = new System.Drawing.Size(227, 156);
+            this.ImageLogo.Size = new System.Drawing.Size(248, 156);
             this.ImageLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ImageLogo.TabIndex = 0;
             this.ImageLogo.TabStop = false;
@@ -216,10 +216,10 @@
             this.panelTitulo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panelTitulo.Controls.Add(this.labelUser);
             this.panelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitulo.Location = new System.Drawing.Point(227, 0);
-            this.panelTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTitulo.Location = new System.Drawing.Point(248, 0);
+            this.panelTitulo.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitulo.Name = "panelTitulo";
-            this.panelTitulo.Size = new System.Drawing.Size(1031, 78);
+            this.panelTitulo.Size = new System.Drawing.Size(1130, 78);
             this.panelTitulo.TabIndex = 1;
             this.panelTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitulo_Paint);
             this.panelTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitulo_MouseDown);
@@ -240,10 +240,10 @@
             // 
             this.panelShadow.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelShadow.Location = new System.Drawing.Point(227, 78);
-            this.panelShadow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelShadow.Location = new System.Drawing.Point(248, 78);
+            this.panelShadow.Margin = new System.Windows.Forms.Padding(4);
             this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(1031, 6);
+            this.panelShadow.Size = new System.Drawing.Size(1130, 6);
             this.panelShadow.TabIndex = 2;
             this.panelShadow.Paint += new System.Windows.Forms.PaintEventHandler(this.panelShadow_Paint);
             // 
@@ -252,10 +252,10 @@
             this.panelContenedor.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.panelContenedor.Controls.Add(this.pictureBox1);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(227, 84);
-            this.panelContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelContenedor.Location = new System.Drawing.Point(248, 84);
+            this.panelContenedor.Margin = new System.Windows.Forms.Padding(4);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1031, 565);
+            this.panelContenedor.Size = new System.Drawing.Size(1130, 605);
             this.panelContenedor.TabIndex = 3;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
             // 
@@ -264,9 +264,9 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Restaurante_app.Properties.Resources.restaurante_rotulacion_composicion_caligrafica_diseno_vintage;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1031, 565);
+            this.pictureBox1.Size = new System.Drawing.Size(1130, 605);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -277,16 +277,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1258, 649);
+            this.ClientSize = new System.Drawing.Size(1378, 689);
             this.ControlBox = false;
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panelShadow);
             this.Controls.Add(this.panelTitulo);
             this.Controls.Add(this.panelPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "restaurante_app";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Restaurante";
             this.panelPrincipal.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);

@@ -26,7 +26,7 @@ namespace Restaurante_app
             panelLogoLogin.BackColor = Color.FromArgb(31, 29, 43);
         }
 
-        SqlConnection conexion = new SqlConnection("server=JOSUE\\SQLEXPRESS; database=RestauranteDB; integrated security=true");
+        SqlConnection conexion = new SqlConnection("server=DESKTOP-VOTBPSI\\SQLEXPRESS; database=RestauranteDB; integrated security=true");
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
@@ -80,6 +80,8 @@ namespace Restaurante_app
                     // Si el usuario y la contraseña son correctos, abrir el formulario principal
                     this.Hide();
                     restaurante_app mainForm = new restaurante_app();
+                    mainForm.Size = new Size(1390, 800);
+                   // mainForm.StartPosition = FormStartPosition.CenterScreen;
                     mainForm.Show();
                 }
                 else

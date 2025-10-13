@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -83,6 +84,7 @@
     <Compile Include="menuForm.Designer.cs">
       <DependentUpon>menuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registroForm.cs">
@@ -144,6 +146,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\restaurante-rotulacion-composicion-caligrafica-diseno-vintage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_budin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_croasan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_helado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_paheya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_pastelChocolate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\postre_pastelFresas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_brahma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_cervesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_cocaCola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_coctel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_corona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_fanta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_heineken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_limonada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_redbull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida_sprite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

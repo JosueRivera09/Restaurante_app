@@ -14,12 +14,12 @@ using System.Windows.Forms;
 
 namespace Restaurante_app
 {
+
     public partial class restaurante_app : Form
 
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
-        //private Form currentChildForm;
 
         public restaurante_app()
         {
@@ -146,28 +146,22 @@ namespace Restaurante_app
         //logo y metodo para reiniciar el boton
         private void ImageLogo_Click(object sender, EventArgs e)
         {
-            ReiniciarBoton();
-           
-        }
-
-       
+            ReiniciarBoton();         
+        } 
 
         private void ReiniciarBoton()
         {
             DisableButton();
             leftBorderBtn.Visible = false;
         }
-
         private void panelPrincipal_Paint(object sender, PaintEventArgs e)
         {
             panelPrincipal.BackColor = Color.FromArgb(31, 29, 43);
         }
-
         private void panelTitulo_Paint(object sender, PaintEventArgs e)
         {
             panelTitulo.BackColor = Color.FromArgb(31, 29, 43);
         }
-        // evento de arrastre de la ventana 
         // movimiento fluido
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -179,21 +173,15 @@ namespace Restaurante_app
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
-
         }
-
         private void panelShadow_Paint(object sender, PaintEventArgs e)
         {
             panelShadow.BackColor = Color.FromArgb(31, 29, 43);
         }
-
         private void panelContenedor_Paint(object sender, PaintEventArgs e)
         {
             panelContenedor.BackColor = Color.FromArgb(31, 29, 43);
 
         }
-
-       
-
     }
 }

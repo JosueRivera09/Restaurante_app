@@ -1,14 +1,13 @@
-USE master
-
-CREATE DATABASE RestauranteDB
+USE master;
 GO
 
-
-USE RestauranteDB
+CREATE DATABASE RestauranteDB;
 GO
 
+USE RestauranteDB;
+GO
 
--- Tabla Usuarios/ loginPage / rol 
+-- Tabla Usuarios (loginPage / rol)
 CREATE TABLE Usuarios (
     IdUsuario INT PRIMARY KEY CHECK (IdUsuario BETWEEN 1000 AND 9999),
     NombreUsuario NVARCHAR(50) UNIQUE NOT NULL,
@@ -17,30 +16,47 @@ CREATE TABLE Usuarios (
 );
 GO
 
--- inserto usuarios Admin
-INSERT INTO Usuarios (IdUsuario, NombreUsuario, Contraseña, Rol)
-VALUES 
-(1001, 'Maria Gonzalez', 'Maria123', 'Administrador'),
-(1002, 'Carlos Mendez', 'Carlos123', 'Mesero'),
-(1003, 'Ana Rodriguez', 'Ana123', 'Cocinero'),
-(1004, 'Jose Ramirez', 'Jose123', 'Mesero'),
-(1005, 'Laura Martinez', 'Laura123', 'Cajero');
-GO
-
-SELECT * FROM Usuarios
-
-
-
-
-/*
+-- Tabla Productos (con imágenes desde recursos)
 CREATE TABLE Productos (
     IdProducto INT IDENTITY(1,1) PRIMARY KEY,
     NombreProducto NVARCHAR(100) NOT NULL,
     Precio DECIMAL(10,2) NOT NULL,
     Categoria NVARCHAR(50),
-    Estado NVARCHAR(10) NOT NULL CHECK (Estado IN ('Activo', 'Inactivo'))
+    Estado NVARCHAR(10) NOT NULL CHECK (Estado IN ('Activo', 'Inactivo')),
+    ImagenNombre NVARCHAR(100) NOT NULL, -- nombre del recurso en Properties.Resources
+    Existencias INT NOT NULL DEFAULT 0,
+    Descripcion NVARCHAR(250) NOT NULL DEFAULT 'Sin descripción'
 );
+GO
 
+--insertar productos
+-- Bebidas
+INSERT INTO Productos (NombreProducto, Precio, Categoria, Estado, ImagenNombre, Existencias, Descripcion)
+VALUES 
+('Cervesa Brahma', 70.00, 'Bebidas', 'Activo', 'bebida_brahma', 25, 'Cerveza rubia refrescante'),
+('Cervesa', 80.00, 'Bebidas', 'Activo', 'bebida_cervesa', 30, 'Cerveza clásica nacional'),
+('Coca-Cola', 50.00, 'Bebidas', 'Activo', 'bebida_cocaCola', 50, 'Refresco gaseoso tradicional'),
+('Coctel', 75.00, 'Bebidas', 'Activo', 'bebida_coctel1', 20, 'Coctel frutal tropical'),
+('Cerveza corona', 85.00, 'Bebidas', 'Activo', 'bebida_corona', 15, 'Cerveza importada tipo lager'),
+('Fanta', 60.00, 'Bebidas', 'Activo', 'bebida_fanta', 40, 'Refresco sabor naranja'),
+('Heineken', 80.00, 'Bebidas', 'Activo', 'bebida_heineken', 18, 'Cerveza premium europea'),
+('Limonada', 60.25, 'Bebidas', 'Activo', 'bebida_limonada', 35, 'Limonada natural con hielo'),
+('Red Bull', 78.36, 'Bebidas', 'Activo', 'bebida_redbull', 22, 'Bebida energética'),
+('Sprite', 65.32, 'Bebidas', 'Activo', 'bebida_sprite', 45, 'Refresco sabor lima-limón'),
+
+-- Postres
+('Budin', 85.00, 'Postres', 'Activo', 'postre_budin', 12, 'Budín casero de vainilla'),
+('Croasan', 60.00, 'Postres', 'Activo', 'postre_croasan', 20, 'Croasan relleno de chocolate'),
+('Helado', 80.00, 'Postres', 'Activo', 'postre_helado', 25, 'Helado artesanal de fresa'),
+('Paheya', 60.25, 'Postres', 'Activo', 'postre_paheya', 10, 'Postre tradicional dulce'),
+('Pastel de chocolate', 78.36, 'Postres', 'Activo', 'postre_pastelChocolate', 15, 'Pastel húmedo de chocolate'),
+('Pastel de fresas', 65.32, 'Postres', 'Activo', 'postre_pastelFresas', 18, 'Pastel con fresas frescas');
+GO
+
+
+
+
+/*
 CREATE TABLE Clientes (
     IdCliente INT IDENTITY(1,1) PRIMARY KEY,
     NombreCliente NVARCHAR(100) NOT NULL
@@ -115,4 +131,3 @@ INNER JOIN Usuarios U ON P.IdUsuario = U.IdUsuario;
 
 
 */
-

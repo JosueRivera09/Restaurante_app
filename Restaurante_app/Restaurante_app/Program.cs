@@ -16,8 +16,8 @@ namespace Restaurante_app
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new restaurante_app());
-            //Application.Run(new LoginPage());
+            //Application.Run(new restaurante_app());
+            Application.Run(new LoginPage());
         }
     }
 }

@@ -43,7 +43,6 @@ C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.restaurante_app.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.LoginPage.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.gestionForm.resources
-C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.menuForm.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.Properties.Resources.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.registroForm.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.reporteForm.resources
@@ -53,3 +52,4 @@ C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.exe
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.pdb
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.MenuCard.MenuCard.resources
+C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.menuForm.resources

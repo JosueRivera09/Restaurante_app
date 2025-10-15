@@ -40,18 +40,20 @@
             this.labelUser = new System.Windows.Forms.Label();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureTeam = new System.Windows.Forms.PictureBox();
+            this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.panelPrincipal.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImageLogo)).BeginInit();
             this.panelTitulo.SuspendLayout();
             this.panelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTeam)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPrincipal
             // 
             this.panelPrincipal.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panelPrincipal.Controls.Add(this.btnAdmin);
             this.panelPrincipal.Controls.Add(this.btnSalir);
             this.panelPrincipal.Controls.Add(this.btnReporte);
             this.panelPrincipal.Controls.Add(this.btnRegistro);
@@ -110,7 +112,7 @@
             this.btnReporte.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btnReporte.Size = new System.Drawing.Size(248, 74);
             this.btnReporte.TabIndex = 4;
-            this.btnReporte.Text = "Reportes Venta";
+            this.btnReporte.Text = "Reportes";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReporte.UseVisualStyleBackColor = true;
@@ -134,7 +136,7 @@
             this.btnRegistro.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btnRegistro.Size = new System.Drawing.Size(248, 74);
             this.btnRegistro.TabIndex = 3;
-            this.btnRegistro.Text = "Registro Ventas";
+            this.btnRegistro.Text = "Registro";
             this.btnRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRegistro.UseVisualStyleBackColor = true;
@@ -250,7 +252,7 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panelContenedor.Controls.Add(this.pictureBox1);
+            this.panelContenedor.Controls.Add(this.pictureTeam);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(248, 84);
             this.panelContenedor.Margin = new System.Windows.Forms.Padding(4);
@@ -259,17 +261,41 @@
             this.panelContenedor.TabIndex = 3;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
             // 
-            // pictureBox1
+            // pictureTeam
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Restaurante_app.Properties.Resources.restaurante_rotulacion_composicion_caligrafica_diseno_vintage;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1130, 605);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureTeam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureTeam.Image = global::Restaurante_app.Properties.Resources.restaurante_rotulacion_composicion_caligrafica_diseno_vintage;
+            this.pictureTeam.Location = new System.Drawing.Point(0, 0);
+            this.pictureTeam.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureTeam.Name = "pictureTeam";
+            this.pictureTeam.Size = new System.Drawing.Size(1130, 605);
+            this.pictureTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureTeam.TabIndex = 0;
+            this.pictureTeam.TabStop = false;
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAdmin.FlatAppearance.BorderSize = 0;
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnAdmin.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnAdmin.IconChar = FontAwesome.Sharp.IconChar.UserShield;
+            this.btnAdmin.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnAdmin.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAdmin.IconSize = 35;
+            this.btnAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdmin.Location = new System.Drawing.Point(0, 452);
+            this.btnAdmin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.btnAdmin.Size = new System.Drawing.Size(248, 74);
+            this.btnAdmin.TabIndex = 6;
+            this.btnAdmin.Text = "Admin";
+            this.btnAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // restaurante_app
             // 
@@ -286,6 +312,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "restaurante_app";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Restaurante";
             this.panelPrincipal.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
@@ -293,7 +320,7 @@
             this.panelTitulo.ResumeLayout(false);
             this.panelTitulo.PerformLayout();
             this.panelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTeam)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -312,8 +339,8 @@
         private System.Windows.Forms.Panel panelShadow;
         private System.Windows.Forms.Panel panelContenedor;
         private System.Windows.Forms.Label labelUser;
-        private System.Windows.Forms.PictureBox pictureBox1;
-       
+        private System.Windows.Forms.PictureBox pictureTeam;
+        private FontAwesome.Sharp.IconButton btnAdmin;
     }
 }
 

@@ -195,5 +195,59 @@
   <ItemGroup>
     <None Include="Resources\bebida_sprite.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Arroz_carne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Combo_pollo-arroz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Ensalada_huevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Ensalada_pescado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_hamburguesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_pasta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pescado_entero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pescado_verduras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pizza_Familiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_pollo_arroz_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pollo_arroz_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pollo_arroz_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Pollo_Entero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_pollo_rico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_sandwich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_sushi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Tacos_de_carne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comida_Tacos_mexicanos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

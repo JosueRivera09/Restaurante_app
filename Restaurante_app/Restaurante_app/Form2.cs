@@ -80,7 +80,7 @@ namespace Restaurante_app
                     // Si el usuario y la contraseña son correctos, abrir el formulario principal
                     this.Hide();
                     restaurante_app mainForm = new restaurante_app();
-                    mainForm.Size = new Size(1390, 800);
+                    mainForm.Size = new Size(1350, 900);
                    // mainForm.StartPosition = FormStartPosition.CenterScreen;
                     mainForm.Show();
                 }

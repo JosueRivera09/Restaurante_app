@@ -97,34 +97,36 @@
             this.panelSearch.Controls.Add(this.textBoxSearch);
             this.panelSearch.Controls.Add(this.btnSearch);
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelSearch.Location = new System.Drawing.Point(475, 0);
+            this.panelSearch.Location = new System.Drawing.Point(451, 0);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(365, 58);
+            this.panelSearch.Size = new System.Drawing.Size(389, 58);
             this.panelSearch.TabIndex = 1;
             this.panelSearch.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSearch_Paint);
             // 
             // textBoxSearch
             // 
+            this.textBoxSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSearch.ForeColor = System.Drawing.Color.Gainsboro;
             this.textBoxSearch.Location = new System.Drawing.Point(16, 9);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(243, 38);
+            this.textBoxSearch.Size = new System.Drawing.Size(243, 31);
             this.textBoxSearch.TabIndex = 1;
             this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.Transparent;
+            this.btnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearch.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
             this.btnSearch.IconColor = System.Drawing.Color.Gainsboro;
             this.btnSearch.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSearch.IconSize = 45;
-            this.btnSearch.Location = new System.Drawing.Point(265, 5);
+            this.btnSearch.Location = new System.Drawing.Point(265, 3);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 45);
+            this.btnSearch.Size = new System.Drawing.Size(60, 45);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.UseVisualStyleBackColor = false;
             // 

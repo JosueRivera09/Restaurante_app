@@ -11,9 +11,7 @@ namespace Restaurante_app.MenuCard
         public MenuCard()
         {
             InitializeComponent();
-            this.Size = new Size(264, 355);
-
-          
+            this.Size = new Size(264, 355);  
 
         }
 
@@ -59,7 +57,6 @@ namespace Restaurante_app.MenuCard
 
         private void pictureBoxCont_Click(object sender, EventArgs e)
         {
-            // Acción al hacer clic en la imagen (por ejemplo, abrir detalle)
         }
 
         private void labelNombre_Click(object sender, EventArgs e)
@@ -75,7 +72,11 @@ namespace Restaurante_app.MenuCard
 
         private void btnOrden_Click(object sender, EventArgs e)
         {
-
+            // capax poner aqui la logica de orden 
+            //para despues generar una factura 
+            // idea crear una tabla temporal que figure fecha hora y los productos
+            // despues generar la factura
+            // pero mentener datos de salida para el form de Jordan que es de reporte de fin de mes o algo si
         }
     }
 }

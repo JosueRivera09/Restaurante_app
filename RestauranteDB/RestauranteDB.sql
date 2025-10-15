@@ -51,9 +51,28 @@ VALUES
 ('Paheya', 60.25, 'Postres', 'Activo', 'postre_paheya', 10, 'Postre tradicional dulce'),
 ('Pastel de chocolate', 78.36, 'Postres', 'Activo', 'postre_pastelChocolate', 15, 'Pastel húmedo de chocolate'),
 ('Pastel de fresas', 65.32, 'Postres', 'Activo', 'postre_pastelFresas', 18, 'Pastel con fresas frescas');
-GO
 
-
+-- COMIDAS 
+INSERT INTO Productos (NombreProducto, Precio, Categoria, Estado, ImagenNombre, Existencias, Descripcion)
+VALUES
+('Tacos de carne', 85.00, 'Comidas', 'Activo', 'Comida_Tacos_de_carne', 25, 'Tacos rellenos de carne sazonada con vegetales frescos'),
+('Arroz con carne', 70.00, 'Comidas', 'Activo', 'Comida_Arroz_carne', 30, 'Arroz blanco acompañado de carne guisada'),
+('Combo pollo con arroz', 95.00, 'Comidas', 'Activo', 'Comida_Combo_pollo-arroz', 20, 'Combo completo con pollo asado y arroz'),
+('Ensalada con huevo', 60.00, 'Comidas', 'Activo', 'Comida_Ensalada_huevo', 15, 'Ensalada fresca con huevo cocido y aderezo ligero'),
+('Ensalada con pescado', 75.00, 'Comidas', 'Inactivo', 'Comida_Ensalada_pescado', 10, 'Ensalada verde con filete de pescado a la plancha'),
+('Hamburguesa clásica', 80.00, 'Comidas', 'Activo', 'Comida_hamburguesa', 40, 'Hamburguesa con carne de res, queso y vegetales'),
+('Pasta italiana', 90.00, 'Comidas', 'Activo', 'Comida_pasta', 20, 'Pasta con salsa de tomate y especias italianas'),
+('Pescado entero', 120.00, 'Comidas', 'Inactivo', 'Comida_Pescado_entero', 12, 'Pescado entero frito con acompañamientos'),
+('Pescado con verduras', 110.00, 'Comidas', 'Activo', 'Comida_Pescado_verduras', 18, 'Filete de pescado acompañado de verduras salteadas'),
+('Pizza Familiar', 150.00, 'Comidas', 'Activo', 'Comida_Pizza_Familiar', 8, 'Pizza grande con variedad de ingredientes'),
+('Pollo con arroz 1', 85.00, 'Comidas', 'Activo', 'Comida_pollo_arroz_1', 22, 'Pollo guisado con arroz y ensalada'),
+('Pollo con arroz 2', 88.00, 'Comidas', 'Activo', 'Comida_Pollo_arroz_2', 20, 'Pollo al horno con arroz especiado'),
+('Pollo con arroz 3', 90.00, 'Comidas', 'Inactivo', 'Comida_Pollo_arroz_3', 18, 'Pollo frito con arroz y vegetales'),
+('Pollo entero', 130.00, 'Comidas', 'Activo', 'Comida_Pollo_Entero', 10, 'Pollo entero asado con papas'),
+('Pollo rico', 95.00, 'Comidas', 'Activo', 'Comida_pollo_rico', 16, 'Pollo en salsa especial con arroz'),
+('Sándwich mixto', 65.00, 'Comidas', 'Activo', 'Comida_sandwich', 35, 'Sándwich con jamón, queso y vegetales'),
+('Sushi variado', 140.00, 'Comidas', 'Inactivo', 'Comida_sushi', 12, 'Rollos de sushi con pescado, arroz y vegetales'),
+('Tacos mexicanos', 90.00, 'Comidas', 'Activo', 'Comida_Tacos_mexicanos', 25, 'Tacos tradicionales con carne, cebolla y cilantro');
 
 
 /*

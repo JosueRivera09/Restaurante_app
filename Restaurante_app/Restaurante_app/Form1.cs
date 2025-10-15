@@ -119,7 +119,12 @@ namespace Restaurante_app
         private void btnReporte_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-                abrirMenu(new reporteForm());
+            abrirMenu(new reporteForm());
+        }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color6);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -146,8 +151,8 @@ namespace Restaurante_app
         //logo y metodo para reiniciar el boton
         private void ImageLogo_Click(object sender, EventArgs e)
         {
-            ReiniciarBoton();         
-        } 
+            ReiniciarBoton();
+        }
 
         private void ReiniciarBoton()
         {
@@ -183,5 +188,7 @@ namespace Restaurante_app
             panelContenedor.BackColor = Color.FromArgb(31, 29, 43);
 
         }
+
+        
     }
 }

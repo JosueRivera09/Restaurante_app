@@ -125,6 +125,7 @@ namespace Restaurante_app
         private void btnAdmin_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
+            abrirMenu(new UsersForm());
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

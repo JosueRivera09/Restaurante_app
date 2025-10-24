@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient; //sql conexion
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
@@ -10,12 +10,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataAccess;
 
 namespace Restaurante_app
 {
     public partial class LoginPage : Form
     {
-       
+        private readonly DbHelper _db = new DbHelper();
+
         public LoginPage()
         {
             InitializeComponent();
@@ -25,8 +27,6 @@ namespace Restaurante_app
         {
             panelLogoLogin.BackColor = Color.FromArgb(31, 29, 43);
         }
-
-        SqlConnection conexion = new SqlConnection("server=DESKTOP-VOTBPSI\\SQLEXPRESS; database=RestauranteDB; integrated security=true");
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
@@ -41,54 +41,55 @@ namespace Restaurante_app
 
         private void textBoxName_TextChanged(object sender, EventArgs e)
         {
-            
-           
         }
 
         private void textBoxPassword_TextChanged(object sender, EventArgs e)
         {
-           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void iconPictureBoxPassword_Click(object sender, EventArgs e)
         {
-
         }
 
         private void iconPictureBoxUser_Click(object sender, EventArgs e)
         {
-
         }
 
         private void btnAceptarLogin_Click(object sender, EventArgs e)
         {
-         
             if (textBoxName.Text != "Usuario" && textBoxPassword.Text != "Contraseña")
             {
-                conexion.Open();
-                SqlCommand comando = new SqlCommand("SELECT * FROM Usuarios WHERE NombreUsuario = @usuario AND Contraseña = @contraseña", conexion);
-                comando.Parameters.AddWithValue("@usuario", textBoxName.Text);
-                comando.Parameters.AddWithValue("@contraseña", textBoxPassword.Text);
-                SqlDataReader lector = comando.ExecuteReader();
-                if (lector.HasRows)
+                string sql = "SELECT COUNT(1) FROM Usuarios WHERE NombreUsuario = @usuario AND Contraseña = @contraseña";
+                var p1 = new SqlParameter("@usuario", SqlDbType.NVarChar) { Value = textBoxName.Text };
+                var p2 = new SqlParameter("@contraseña", SqlDbType.NVarChar) { Value = textBoxPassword.Text };
+
+                object result = null;
+                try
                 {
-                    // Si el usuario y la contraseña son correctos, abrir el formulario principal
+                    result = _db.ExecuteScalar(sql, p1, p2);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al conectar con la base de datos: " + ex.Message);
+                    return;
+                }
+
+                int count = Convert.ToInt32(result ?? 0);
+                if (count > 0)
+                {
                     this.Hide();
                     restaurante_app mainForm = new restaurante_app();
                     mainForm.Size = new Size(1350, 900);
-                   // mainForm.StartPosition = FormStartPosition.CenterScreen;
                     mainForm.Show();
                 }
                 else
                 {
                     MessageBox.Show("Usuario o contraseña incorrectos");
                 }
-                conexion.Close();
             }
             else
             {
@@ -101,7 +102,6 @@ namespace Restaurante_app
             Application.Exit();
         }
 
-        // eventos para textBox
         private void textBoxName_Enter(object sender, EventArgs e)
         {
             if (textBoxName.Text == "Usuario")

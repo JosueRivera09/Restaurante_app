@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnReporte = new FontAwesome.Sharp.IconButton();
             this.btnRegistro = new FontAwesome.Sharp.IconButton();
@@ -41,7 +42,6 @@
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.pictureTeam = new System.Windows.Forms.PictureBox();
-            this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.panelPrincipal.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImageLogo)).BeginInit();
@@ -67,6 +67,30 @@
             this.panelPrincipal.Size = new System.Drawing.Size(248, 689);
             this.panelPrincipal.TabIndex = 0;
             this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAdmin.FlatAppearance.BorderSize = 0;
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnAdmin.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnAdmin.IconChar = FontAwesome.Sharp.IconChar.UserGroup;
+            this.btnAdmin.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnAdmin.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAdmin.IconSize = 35;
+            this.btnAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdmin.Location = new System.Drawing.Point(0, 452);
+            this.btnAdmin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.btnAdmin.Size = new System.Drawing.Size(248, 74);
+            this.btnAdmin.TabIndex = 6;
+            this.btnAdmin.Text = "Usuarios";
+            this.btnAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // btnSalir
             // 
@@ -272,30 +296,6 @@
             this.pictureTeam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureTeam.TabIndex = 0;
             this.pictureTeam.TabStop = false;
-            // 
-            // btnAdmin
-            // 
-            this.btnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAdmin.FlatAppearance.BorderSize = 0;
-            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnAdmin.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnAdmin.IconChar = FontAwesome.Sharp.IconChar.UserShield;
-            this.btnAdmin.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnAdmin.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAdmin.IconSize = 35;
-            this.btnAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdmin.Location = new System.Drawing.Point(0, 452);
-            this.btnAdmin.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnAdmin.Size = new System.Drawing.Size(248, 74);
-            this.btnAdmin.TabIndex = 6;
-            this.btnAdmin.Text = "Admin";
-            this.btnAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdmin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnAdmin.UseVisualStyleBackColor = true;
-            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // restaurante_app
             // 

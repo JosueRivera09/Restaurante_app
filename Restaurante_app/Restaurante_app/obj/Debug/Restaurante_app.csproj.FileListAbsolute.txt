@@ -53,3 +53,4 @@ C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.pdb
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.MenuCard.MenuCard.resources
 C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.menuForm.resources
+C:\Users\jsuer\OneDrive\Desktop\Restaurante-app\Restaurante_app\Restaurante_app\obj\Debug\Restaurante_app.UsersForm.resources

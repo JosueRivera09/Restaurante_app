@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblReport = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -51,7 +51,7 @@
             this.pnlHeader.Controls.Add(this.lblReport);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1067, 75);
             this.pnlHeader.TabIndex = 0;
@@ -76,7 +76,7 @@
             this.panel1.Controls.Add(this.cmbReporte);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 75);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(369, 479);
             this.panel1.TabIndex = 1;
@@ -102,9 +102,9 @@
             this.btnConsultar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultar.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnConsultar.Location = new System.Drawing.Point(99, 226);
-            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(167, 54);
+            this.btnConsultar.Size = new System.Drawing.Size(185, 58);
             this.btnConsultar.TabIndex = 9;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = false;
@@ -116,7 +116,7 @@
             this.cmbReporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(29)))), ((int)(((byte)(43)))));
             this.cmbReporte.FormattingEnabled = true;
             this.cmbReporte.Location = new System.Drawing.Point(99, 112);
-            this.cmbReporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbReporte.Margin = new System.Windows.Forms.Padding(4);
             this.cmbReporte.Name = "cmbReporte";
             this.cmbReporte.Size = new System.Drawing.Size(185, 39);
             this.cmbReporte.TabIndex = 8;
@@ -127,25 +127,25 @@
             this.panel2.Controls.Add(this.chartVentas);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(369, 75);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(698, 479);
             this.panel2.TabIndex = 2;
             // 
             // chartVentas
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartVentas.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chartVentas.ChartAreas.Add(chartArea1);
             this.chartVentas.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chartVentas.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.chartVentas.Legends.Add(legend1);
             this.chartVentas.Location = new System.Drawing.Point(0, 0);
-            this.chartVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chartVentas.Margin = new System.Windows.Forms.Padding(4);
             this.chartVentas.Name = "chartVentas";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartVentas.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartVentas.Series.Add(series1);
             this.chartVentas.Size = new System.Drawing.Size(698, 479);
             this.chartVentas.TabIndex = 10;
             this.chartVentas.Text = "chart1";
@@ -162,7 +162,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "reporteForm";
             this.Text = "reporteForm";
             this.Load += new System.EventHandler(this.reporteForm_Load);

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|c:\\users\\jsuer\\onedrive\\desktop\\restaurante_app\\restaurante_app\\restaurante_app\\menucard\\menucard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\menucard\\menucard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\reporteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\reporteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\restaurante_app\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CBE06723-FCF1-4AC7-9D84-879E515E3375}|Restaurante_app\\Restaurante_app.csproj|solutionrelative:restaurante_app\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,29 +46,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuCard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\MenuCard\\MenuCard.cs",
-              "RelativeDocumentMoniker": "Restaurante_app\\MenuCard\\MenuCard.cs",
-              "ToolTip": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\MenuCard\\MenuCard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Restaurante_app\\MenuCard\\MenuCard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T03:16:42.407Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "reporteForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\reporteForm.cs",
-              "RelativeDocumentMoniker": "Restaurante_app\\reporteForm.cs",
-              "ToolTip": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\reporteForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Restaurante_app\\reporteForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T05:40:45.856Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UsersForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\UsersForm.cs",
@@ -84,23 +53,25 @@
               "ToolTip": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\UsersForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "Restaurante_app\\UsersForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T22:23:49.611Z"
+              "WhenOpened": "2025-10-28T22:23:49.611Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsersForm.cs",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\UsersForm.cs",
               "RelativeDocumentMoniker": "Restaurante_app\\UsersForm.cs",
               "ToolTip": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\UsersForm.cs",
               "RelativeToolTip": "Restaurante_app\\UsersForm.cs",
-              "ViewState": "AgIAALQBAAAAAAAAAAAmwMwBAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAwwP8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:33:28.295Z"
+              "WhenOpened": "2025-10-28T21:33:28.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DataAccess.cs",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\DataAccess.cs",
               "RelativeDocumentMoniker": "Restaurante_app\\DataAccess.cs",
@@ -112,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "menuForm.cs",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\menuForm.cs",
               "RelativeDocumentMoniker": "Restaurante_app\\menuForm.cs",
@@ -124,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "menuForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\menuForm.cs",
               "RelativeDocumentMoniker": "Restaurante_app\\menuForm.cs",
@@ -135,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "registroForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jsuer\\OneDrive\\Desktop\\Restaurante_app\\Restaurante_app\\Restaurante_app\\registroForm.cs",
               "RelativeDocumentMoniker": "Restaurante_app\\registroForm.cs",

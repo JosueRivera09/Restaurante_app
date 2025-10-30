@@ -32,9 +32,9 @@
             this.tablaCont = new System.Windows.Forms.TableLayoutPanel();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelDescripcion = new System.Windows.Forms.Label();
+            this.labelPrecio = new System.Windows.Forms.Label();
             this.btnOrden = new FontAwesome.Sharp.IconButton();
             this.labelExistencias = new System.Windows.Forms.Label();
-            this.labelPrecio = new System.Windows.Forms.Label();
             this.pictureBoxCont = new System.Windows.Forms.PictureBox();
             this.panelCardContainer.SuspendLayout();
             this.tablaCont.SuspendLayout();
@@ -99,6 +99,19 @@
             this.labelDescripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelDescripcion.Click += new System.EventHandler(this.labelDescripcion_Click);
             // 
+            // labelPrecio
+            // 
+            this.labelPrecio.AutoSize = true;
+            this.labelPrecio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelPrecio.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrecio.ForeColor = System.Drawing.Color.Gainsboro;
+            this.labelPrecio.Location = new System.Drawing.Point(3, 75);
+            this.labelPrecio.Name = "labelPrecio";
+            this.labelPrecio.Size = new System.Drawing.Size(312, 39);
+            this.labelPrecio.TabIndex = 3;
+            this.labelPrecio.Text = "C$ 110";
+            this.labelPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnOrden
             // 
             this.btnOrden.BackColor = System.Drawing.Color.Transparent;
@@ -121,24 +134,11 @@
             this.labelExistencias.AutoSize = true;
             this.labelExistencias.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExistencias.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelExistencias.Location = new System.Drawing.Point(69, 397);
+            this.labelExistencias.Location = new System.Drawing.Point(73, 396);
             this.labelExistencias.Name = "labelExistencias";
             this.labelExistencias.Size = new System.Drawing.Size(22, 17);
             this.labelExistencias.TabIndex = 5;
             this.labelExistencias.Text = "10";
-            // 
-            // labelPrecio
-            // 
-            this.labelPrecio.AutoSize = true;
-            this.labelPrecio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelPrecio.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecio.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelPrecio.Location = new System.Drawing.Point(3, 75);
-            this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(312, 39);
-            this.labelPrecio.TabIndex = 3;
-            this.labelPrecio.Text = "C$ 110";
-            this.labelPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBoxCont
             // 

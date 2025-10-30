@@ -217,9 +217,11 @@ namespace Restaurante_app
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            modoEdicion = false;
+            modoEdicion = true;
             LimpiarCampos();
-            panelEdicionUsuarios.Visible = true;
+            //panelEdicionUsuarios.Visible = true;
+            tableControles.Visible = true;
+            tableIcon.Visible = true;
             CentrarPanelEdicion();
         }
 

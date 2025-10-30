@@ -6,8 +6,8 @@ namespace DataAccess
 {
     public class DbHelper
     {
+        //private readonly string _connectionString = "Server=JORDANAVILES\\SQLEXPRESS;Database=RestauranteDB;Trusted_Connection=True;";
         private readonly string _connectionString = "Server=DESKTOP-VOTBPSI\\SQLEXPRESS;Database=RestauranteDB;Trusted_Connection=True;";
-
         public DataTable ExecuteQuery(string sql, params SqlParameter[] parameters)
         {
             var dt = new DataTable();

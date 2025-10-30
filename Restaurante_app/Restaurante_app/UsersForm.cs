@@ -217,9 +217,8 @@ namespace Restaurante_app
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            modoEdicion = true;
+            modoEdicion = false;
             LimpiarCampos();
-            //panelEdicionUsuarios.Visible = true;
             tableControles.Visible = true;
             tableIcon.Visible = true;
             CentrarPanelEdicion();
@@ -254,7 +253,6 @@ namespace Restaurante_app
                     comboSelectRol.SelectedValue = row["Rol"].ToString();
 
                     modoEdicion = true; // Estamos editando
-                    //panelEdicionUsuarios.Visible = true;
                     tableControles.Visible = true;
                     tableIcon.Visible = true;
                     CentrarPanelEdicion();

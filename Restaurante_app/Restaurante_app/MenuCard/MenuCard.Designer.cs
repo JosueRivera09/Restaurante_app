@@ -32,9 +32,9 @@
             this.tablaCont = new System.Windows.Forms.TableLayoutPanel();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelDescripcion = new System.Windows.Forms.Label();
-            this.labelPrecio = new System.Windows.Forms.Label();
             this.btnOrden = new FontAwesome.Sharp.IconButton();
             this.labelExistencias = new System.Windows.Forms.Label();
+            this.labelPrecio = new System.Windows.Forms.Label();
             this.pictureBoxCont = new System.Windows.Forms.PictureBox();
             this.panelCardContainer.SuspendLayout();
             this.tablaCont.SuspendLayout();
@@ -65,10 +65,10 @@
             this.tablaCont.Location = new System.Drawing.Point(3, 242);
             this.tablaCont.Name = "tablaCont";
             this.tablaCont.RowCount = 3;
-            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.82456F));
-            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.96491F));
-            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tablaCont.Size = new System.Drawing.Size(318, 114);
+            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 41.25F));
+            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.75F));
+            this.tablaCont.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.tablaCont.Size = new System.Drawing.Size(318, 117);
             this.tablaCont.TabIndex = 8;
             // 
             // labelNombre
@@ -79,7 +79,7 @@
             this.labelNombre.ForeColor = System.Drawing.Color.Gainsboro;
             this.labelNombre.Location = new System.Drawing.Point(3, 0);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(312, 34);
+            this.labelNombre.Size = new System.Drawing.Size(312, 33);
             this.labelNombre.TabIndex = 1;
             this.labelNombre.Text = "Nombre";
             this.labelNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,26 +91,13 @@
             this.labelDescripcion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelDescripcion.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescripcion.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelDescripcion.Location = new System.Drawing.Point(3, 34);
+            this.labelDescripcion.Location = new System.Drawing.Point(3, 33);
             this.labelDescripcion.Name = "labelDescripcion";
-            this.labelDescripcion.Size = new System.Drawing.Size(312, 41);
+            this.labelDescripcion.Size = new System.Drawing.Size(312, 47);
             this.labelDescripcion.TabIndex = 2;
             this.labelDescripcion.Text = "Descripcion";
             this.labelDescripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelDescripcion.Click += new System.EventHandler(this.labelDescripcion_Click);
-            // 
-            // labelPrecio
-            // 
-            this.labelPrecio.AutoSize = true;
-            this.labelPrecio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelPrecio.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecio.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelPrecio.Location = new System.Drawing.Point(3, 75);
-            this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(312, 39);
-            this.labelPrecio.TabIndex = 3;
-            this.labelPrecio.Text = "C$ 110";
-            this.labelPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnOrden
             // 
@@ -134,11 +121,24 @@
             this.labelExistencias.AutoSize = true;
             this.labelExistencias.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExistencias.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelExistencias.Location = new System.Drawing.Point(73, 396);
+            this.labelExistencias.Location = new System.Drawing.Point(69, 397);
             this.labelExistencias.Name = "labelExistencias";
             this.labelExistencias.Size = new System.Drawing.Size(22, 17);
             this.labelExistencias.TabIndex = 5;
             this.labelExistencias.Text = "10";
+            // 
+            // labelPrecio
+            // 
+            this.labelPrecio.AutoSize = true;
+            this.labelPrecio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelPrecio.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrecio.ForeColor = System.Drawing.Color.Gainsboro;
+            this.labelPrecio.Location = new System.Drawing.Point(3, 80);
+            this.labelPrecio.Name = "labelPrecio";
+            this.labelPrecio.Size = new System.Drawing.Size(312, 37);
+            this.labelPrecio.TabIndex = 3;
+            this.labelPrecio.Text = "C$ 110";
+            this.labelPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBoxCont
             // 
@@ -148,7 +148,7 @@
             this.pictureBoxCont.Image = global::Restaurante_app.Properties.Resources.Comida_Tacos_mexicanos;
             this.pictureBoxCont.Location = new System.Drawing.Point(49, 3);
             this.pictureBoxCont.Name = "pictureBoxCont";
-            this.pictureBoxCont.Size = new System.Drawing.Size(220, 224);
+            this.pictureBoxCont.Size = new System.Drawing.Size(216, 221);
             this.pictureBoxCont.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxCont.TabIndex = 0;
             this.pictureBoxCont.TabStop = false;

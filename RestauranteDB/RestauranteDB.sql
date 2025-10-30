@@ -75,6 +75,28 @@ VALUES
 ('Tacos mexicanos', 90.00, 'Comidas', 'Activo', 'Comida_Tacos_mexicanos', 25, 'Tacos tradicionales con carne, cebolla y cilantro');
 
 
+
+
+
+
+-- reporte tablas 
+CREATE TABLE ReporteVentasSemanal (
+    IdReporteSemanal INT IDENTITY(1,1) PRIMARY KEY,
+    Año INT NOT NULL,
+    Semana INT NOT NULL,
+    TotalSemanal DECIMAL(10,2) NOT NULL,
+    FechaGeneracion DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE ReporteVentasMensual (
+    IdReporteMensual INT IDENTITY(1,1) PRIMARY KEY,
+    Año INT NOT NULL,
+    Mes INT NOT NULL,
+    TotalMensual DECIMAL(10,2) NOT NULL,
+    FechaGeneracion DATETIME DEFAULT GETDATE()
+);
+
+
 /*
 CREATE TABLE Clientes (
     IdCliente INT IDENTITY(1,1) PRIMARY KEY,
@@ -150,3 +172,4 @@ INNER JOIN Usuarios U ON P.IdUsuario = U.IdUsuario;
 
 
 */
+

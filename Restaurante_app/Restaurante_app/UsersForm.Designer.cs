@@ -79,25 +79,25 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.dgUsers, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 93);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 77);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.522613F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.47739F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1321, 438);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1321, 491);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // dgUsers
             // 
             this.dgUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgUsers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgUsers.Location = new System.Drawing.Point(3, 21);
+            this.dgUsers.Location = new System.Drawing.Point(3, 24);
             this.dgUsers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgUsers.Name = "dgUsers";
             this.dgUsers.RowHeadersWidth = 51;
             this.dgUsers.RowTemplate.Height = 24;
-            this.dgUsers.Size = new System.Drawing.Size(1315, 415);
+            this.dgUsers.Size = new System.Drawing.Size(1315, 465);
             this.dgUsers.TabIndex = 3;
             // 
             // panelEdicionUsuarios
@@ -105,10 +105,10 @@
             this.panelEdicionUsuarios.Controls.Add(this.tableIcon);
             this.panelEdicionUsuarios.Controls.Add(this.tableControles);
             this.panelEdicionUsuarios.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelEdicionUsuarios.Location = new System.Drawing.Point(3, 531);
+            this.panelEdicionUsuarios.Location = new System.Drawing.Point(3, 568);
             this.panelEdicionUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelEdicionUsuarios.Name = "panelEdicionUsuarios";
-            this.panelEdicionUsuarios.Size = new System.Drawing.Size(1321, 277);
+            this.panelEdicionUsuarios.Size = new System.Drawing.Size(1321, 240);
             this.panelEdicionUsuarios.TabIndex = 5;
             this.panelEdicionUsuarios.Paint += new System.Windows.Forms.PaintEventHandler(this.panelEdicionUsuarios_Paint);
             // 
@@ -128,7 +128,7 @@
             this.tableIcon.Controls.Add(this.btnLIsto, 3, 0);
             this.tableIcon.Controls.Add(this.iconButton1, 5, 0);
             this.tableIcon.Location = new System.Drawing.Point(4, 148);
-            this.tableIcon.Margin = new System.Windows.Forms.Padding(4);
+            this.tableIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableIcon.Name = "tableIcon";
             this.tableIcon.RowCount = 1;
             this.tableIcon.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -208,7 +208,7 @@
             this.tableControles.Controls.Add(this.txtContraseña, 5, 0);
             this.tableControles.Controls.Add(this.label4, 4, 1);
             this.tableControles.Location = new System.Drawing.Point(4, 41);
-            this.tableControles.Margin = new System.Windows.Forms.Padding(4);
+            this.tableControles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableControles.Name = "tableControles";
             this.tableControles.RowCount = 2;
             this.tableControles.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.42857F));
@@ -308,16 +308,18 @@
             this.panel1.Location = new System.Drawing.Point(3, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1321, 91);
+            this.panel1.Size = new System.Drawing.Size(1321, 75);
             this.panel1.TabIndex = 4;
             // 
             // btnEditar
             // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.btnEditar.FlatAppearance.BorderSize = 0;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnEditar.Location = new System.Drawing.Point(37, 0);
+            this.btnEditar.Location = new System.Drawing.Point(37, 5);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(293, 63);
@@ -328,11 +330,13 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAgregar.FlatAppearance.BorderSize = 0;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnAgregar.Location = new System.Drawing.Point(813, 0);
+            this.btnAgregar.Location = new System.Drawing.Point(336, 5);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(293, 63);
@@ -343,11 +347,13 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnEliminar.Location = new System.Drawing.Point(435, 0);
+            this.btnEliminar.Location = new System.Drawing.Point(666, 9);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(293, 63);

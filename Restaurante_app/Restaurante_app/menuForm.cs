@@ -57,8 +57,8 @@ namespace Restaurante_app
         public List<Producto> ObtenerProductos()
         {
             var lista = new List<Producto>();
+            //string cadena = "Server=JORDANAVILES\\SQLEXPRESS;Database=RestauranteDB;Trusted_Connection=True;";
             string cadena = "Server=DESKTOP-VOTBPSI\\SQLEXPRESS;Database=RestauranteDB;Trusted_Connection=True;";
-
             using (SqlConnection conn = new SqlConnection(cadena))
             {
                 conn.Open();
